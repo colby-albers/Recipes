@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+</head>
+<body>
+        <form action="/register" method="post">
+            <h2>Register</h2>
+
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name">
+                <label for="email">Email:</label>
+                <input type="text" name="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" name="confirm">
+            <input type="submit" value="Register">
+        </form>
+        <form action="/login" method="post">
+            <h2>Login</h2>
+                <label for="email">Email:</label>
+                <input type="text" name="email">
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+            <input type="submit" value="Login">
+        </form>
+</body>
+</html>
